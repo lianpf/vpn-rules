@@ -1,3 +1,6 @@
-rules:
+payload:
   - DOMAIN-SUFFIX,ztosys.com,DIRECT
   - DOMAIN-KEYWORD,ztosys,DIRECT
+
+  # 保留默认订阅规则的位置标记
+  - "||DEFAULT-RULES||" 
